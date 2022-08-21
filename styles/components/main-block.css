@@ -14,7 +14,7 @@
 }
 
 .main-block__title {
-    color: #fff;
+    color: #FFFFFFD9;
 }
 
 .main-block__author,
@@ -22,32 +22,23 @@
     color: #FFFFFFA6;
 }
 
+.main-block__author {
+    margin-top: 2px;
+}
+
+.main-block__chapters {
+    margin-top: 6px !important;
+}
+
 .mainBlock__social {
     display: flex;
     gap: 17px;
-    padding-top: 6px;
+    margin-top: 6px;
 }
 
 .mainBlock__social .anticon {
     color: #FFFFFF73;    ;
     margin-right: 5px;
-}
-
-.main-block__tags {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 20px;
-    margin-top: 25px;
-}
-
-.main-block__tags span {
-    border: 1px solid #434343;
-    border-radius: 4px;
-}
-
-.main-block__tags span{
-    padding: 1px 8px;
-    margin-right: 8px;
 }
 
 .ant-btn.main-block__read {

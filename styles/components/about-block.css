@@ -1,0 +1,39 @@
+.about-block {
+    color: #FFFFFFA6;
+}
+
+.about-block__title,
+.about-block__title2,
+.about-block__subject {
+    color: #FFFFFFD9;
+
+}
+
+.about-block__title2 {
+    margin-top: 22px !important;
+}
+
+.about-block__subject {
+    margin-top: 13px !important;
+}
+
+.about-block .tags-block {
+    margin-top: 8px;
+}
+
+.about-block__summary {
+    height: 89px;
+    line-height: 22px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.about-block__show-more {
+    line-height: 22px;
+    border: none;
+    background: transparent;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: -9px;
+    cursor: pointer;
+}

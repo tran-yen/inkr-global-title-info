@@ -5,6 +5,8 @@ import style from '../styles/Home.module.css'
 
 import {  Col, Row } from 'antd';
 import MainBlock from '../components/main-block';
+import AboutBlock from '../components/about-block';
+import PromoBlock from '../components/promo-block';
 
 const Home: NextPage = () => {
   return (
@@ -18,8 +20,11 @@ const Home: NextPage = () => {
         <Row gutter={{lg: 32, xl: 32, xxl: 24 }}>
           <Col lg={15} xl={16} xxl={16}>
             <MainBlock />
+            <PromoBlock />
           </Col>
-          <Col lg={9} xl={8} xxl={8}></Col>
+          <Col lg={9} xl={8} xxl={8}>
+            <AboutBlock />
+          </Col>
         </Row>
       </main>
     </div>

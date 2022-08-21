@@ -1,0 +1,84 @@
+.block-wrapper {
+    border-radius: 8px;
+    background: #141414;
+    padding: 24px;
+    margin: 0 0 32px 0;
+}
+
+@media only screen and (min-width: 1600px) {
+    .block-wrapper {
+      margin: 0 0 24px 0;
+    }
+}
+  
+.ant-row {
+    width: 100%;
+}
+
+.title--medium {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.title--regular {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.tags-block {
+    margin-top: 25px;
+}
+
+.tags-block span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    border: 1px solid #434343;
+    border-radius: 4px;
+    padding: 1px 8px;
+    margin-right: 8px;
+}
+
+h4.title--medium {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+h5.title--medium {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-coin * {
+    width: 10px;
+    height: 10px;
+}
+
+.icon-queen * {
+    width: 14px;
+    height: 12px;
+}
+
+.color-white-1 {
+    color: #FFFFFFD9 !important;
+}
+
+.color-white-2 {
+    color: #FFFFFF73;
+}
+
+.color-purple-1 {
+    color: #A379FF;
+    ;
+}

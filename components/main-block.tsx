@@ -1,6 +1,7 @@
 import React from 'react';
 import {  Button, Image } from 'antd';
 import { LikeOutlined, ReadOutlined } from '@ant-design/icons';
+import TagsBlock from './tags-block';
 
 const MainBlock:React.FC = () => {
     return <div className='block-wrapper'>
@@ -17,13 +18,7 @@ const MainBlock:React.FC = () => {
                     <div><LikeOutlined /> 74,483</div>
                     <div><ReadOutlined /> 15,863</div>
                 </div>
-                <div className='main-block__tags'>
-                    <span>18+</span>
-                    <span>NEW</span>
-                    <span>TRENDING</span>
-                    <span>BESTSELLER</span>
-                    <span>MANGA</span>
-                </div>
+                <TagsBlock list={['18+', 'NEW', 'TRENDING', 'BESTSELLER', 'MANGA']}/>
                 <Button className='main-block__read'>Read First Chapter for FREE</Button>
             </div>
         </div>

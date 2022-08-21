@@ -1,0 +1,128 @@
+.promo-block {
+    color: #FFFFFFD9;
+
+}
+
+.promo-block .ant-image {
+    pointer-events: none !important;
+}
+
+.promo-block .ant-row + .ant-row {
+    margin-top: 1px;
+}
+
+.promo-block__summary .ant-col + .ant-col {
+    border-left: 1px solid #141414;
+}
+
+.promo-block .ant-col {
+    background: #1F1F1F;
+    padding: 16px;
+}
+
+.promo-block__content {
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 16px;
+}
+
+.promo-block__text--bold-white {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.promo-block__total-price,
+.promo-block__saving {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promo-block__price {
+    width: 71px;
+    height: 40px;
+    font-size: 16px;
+    color: #FFFFFFD9;
+    line-height: 24px;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 8px 16px;
+    background: #FFFFFF14;
+}
+
+.promo-block .icon-coin{
+    margin-right: 4px;
+}
+
+.promo-block .promo-block__price .icon-coin *,
+.promo-block__saving-info .icon-coin *{
+    width: 16px;
+    height: 16px;
+}
+
+.promo-block__saving-info {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.promo-block__saving-info .saving-percent {
+    display: flex;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    background: #651FFF;
+}
+
+.promo-block__saving-info .saving-coin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    background: #FFFFFF14;
+
+}
+
+.saving-coin .old-price {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: line-through;
+    color: #FFFFFF4D;
+    margin-right: 4px;
+}
+
+.saving-coin .new-price {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color:  #FFFFFFD9;
+}
+.saving-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.saving-title .icon-queen {
+    margin-left: 5px;
+}
+
+.saving-note {
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 20px;
+    text-align: right;
+}
+
+.promo-block__view-more {
+    text-align: center;
+    margin-top: 16px;
+}
