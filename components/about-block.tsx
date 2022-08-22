@@ -1,7 +1,6 @@
 import React,  { useState } from 'react';
 import TagsBlock from './tags-block';
 import { Image, Avatar } from 'antd';
-import { UserOutlined } from '@ant-design/icons';
 
 const AboutBlock:React.FC = () => {
     const _and:string='&';

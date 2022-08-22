@@ -7,6 +7,7 @@ import {  Col, Row } from 'antd';
 import MainBlock from '../components/main-block';
 import AboutBlock from '../components/about-block';
 import PromoBlock from '../components/promo-block';
+import ChapterBlock from '../components/chapter-block';
 
 const Home: NextPage = () => {
   return (
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
           <Col lg={15} xl={16} xxl={16}>
             <MainBlock />
             <PromoBlock />
+            <ChapterBlock />
           </Col>
           <Col lg={9} xl={8} xxl={8}>
             <AboutBlock />

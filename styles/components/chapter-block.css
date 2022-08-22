@@ -1,0 +1,108 @@
+.chapter-block {
+    color: #FFFFFFA6;
+}
+
+.chapter-block__title {
+    color: #FFFFFFD9;
+}
+
+.chapter-block__sub-title {
+    color: #FFFFFFA6;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.chapter__list {
+    margin-top: 8px;
+}
+
+.chapter-block___head {
+    position: relative;
+    margin-top: 23px !important;
+}
+
+.chapter-block___tool {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.chapter-block___tool .tool-wrap {
+    display: inline-flex;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FFFFFFA6;
+    border-radius: 8px;
+}
+
+.chapter-block___tool .tool-wrap + .tool-wrap {
+    margin-left: 12px;
+}
+
+.chapter__item {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 12px;
+}
+
+.chapter__item.is-reading {
+    background: #FFFFFF14;
+}
+
+.chapter__item.is-lock {
+    pointer-events: none;
+}
+
+.chapter__name {
+    margin: 0;
+}
+
+.chapter__read-time {
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF73;
+    margin: 0;
+}
+
+.chapter__thumb {
+    position: relative;
+}
+
+.chapter__detail {
+    position: relative;
+    width: calc(100% - 100px);
+}
+
+.chapter-progress {
+    position: absolute !important;
+    left: 0;
+    bottom: -6px;
+}
+
+.chapter__lock-icon {
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.chapter__price {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    font-weight: 500;
+    color: #FFFFFFA6;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.chapter__price-num {
+    margin-left: 5px;
+}
