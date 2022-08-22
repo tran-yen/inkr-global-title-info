@@ -36,6 +36,7 @@
     justify-content: center;
     border: 1px solid #FFFFFFA6;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .chapter-block___tool .tool-wrap + .tool-wrap {
