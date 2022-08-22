@@ -1,5 +1,28 @@
 .about-block {
     color: #FFFFFFA6;
+    max-height: 270px;
+    /* overflow: hidden; */
+    transition: max-height .5s cubic-bezier(0, 1, 0, 1);
+}
+
+.about-block.is-full {
+    color: #FFFFFFA6;
+    max-height: 300vh;
+    transition: max-height .5s ease-in-out;
+}
+
+.is-full .about-block__summary {
+    display: none;
+}
+
+.is-full .about-block__desc,
+.is-full .about-block__person-list,
+.is-full .about-block__others {
+    display: block;
+}
+
+.is-full .about-block__imgs {
+    display: flex;
 }
 
 .about-block__title,
@@ -26,6 +49,56 @@
     line-height: 22px;
     margin-top: 10px;
     margin-bottom: 0;
+}
+
+.about-block__desc,
+.about-block__imgs,
+.about-block__person-list,
+.about-block__others {
+    display: none;
+}
+
+.about-block__imgs {
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.about-block__person-item {
+    display: flex;
+    gap: 10px;
+    margin-top: 9px;
+}
+
+.about-block__person-item + .about-block__person-item {
+    margin-top: 12px;
+}
+
+.about-block__person-infos .name {
+    color: #FFFFFFD9;
+    margin: 0;
+}
+
+.about-block__person-infos .role {
+    color: #FFFFFF73;
+    line-height: 20px;
+    margin: 0;
+}
+
+.about-block__others {
+    margin-top: 32px;
+}
+
+.about-block__others-infos-item {
+    margin: 4px 0 0 0;
+}
+
+.about-block__others-infos-item .detail {
+    margin-left: 8px;
+}
+
+.about-block__others-infos-item + .about-block__others-infos-item {
+    margin-top: 8px;
 }
 
 .about-block__show-more {
