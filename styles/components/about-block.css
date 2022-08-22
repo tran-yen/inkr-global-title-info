@@ -47,6 +47,8 @@
 .about-block__summary {
     height: 89px;
     line-height: 22px;
+    max-height: 89px;
+    overflow: hidden;
     margin-top: 10px;
     margin-bottom: 0;
 }
